@@ -22,6 +22,22 @@ const Profile: NextPage = () => {
           <div className={styles.homeImage}>
             <Image src="/assets/images/profile.jpg" layout="fill" objectFit="contain" />
           </div>
+
+          <div className={styles.name}>
+            水瀬ひろ
+          </div>
+
+          <div className={styles.info}>
+            東京在住
+            <br />
+            株式会社 ラブグラフ
+            <br />
+            webエンジニア
+            <br />
+            モバイルアプリエンジニア
+            <br />
+            写真家
+          </div>
         </main>
 
         <Footer />
