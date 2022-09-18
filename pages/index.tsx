@@ -9,11 +9,13 @@ import styles from '../styles/Index.module.scss'
 const Index: NextPage = () => {
   const router = useRouter();
   
-  useEffect(() => {
-    setTimeout(() => {
-      router.push("/home");
-    }, 7 * 1000);
-  });
+  if (router.pathname === "/") {
+    useEffect(() => {
+      setTimeout(() => {
+        router.push("/home");
+      }, 7 * 1000);
+    });
+  }
 
   return (
     <motion.div animate={{ opacity: 1 }} exit={{ opacity: 0 }}>

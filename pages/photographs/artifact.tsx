@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
-import styles from '../styles/Photograph.module.scss'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import styles from '../../styles/Photograph.module.scss'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
-const Photograph: NextPage = () => {
+const Artifact: NextPage = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className={styles.container}>
@@ -23,18 +23,6 @@ const Photograph: NextPage = () => {
           <div className={styles.homeImage}>
             <Image src="/assets/images/photograph.jpg" layout="fill" objectFit="contain" />
           </div>
-
-          <div className={styles.categories}>
-            <Link href="/photographs/nature" scroll={false}>
-              <a>NATURE</a>
-            </Link>
-            <Link href="/photographs/portrait" scroll={false}>
-              <a>PORTRAIT</a>
-            </Link>
-            <Link href="/photographs/artifact" scroll={false}>
-              <a>ARTIFACT</a>
-            </Link>
-          </div>
         </main>
 
         <Footer />
@@ -43,4 +31,4 @@ const Photograph: NextPage = () => {
   )
 }
 
-export default Photograph
+export default Artifact
