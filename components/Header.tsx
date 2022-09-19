@@ -3,9 +3,7 @@ import styles from '../styles/Header.module.scss'
 
 function Header() {
   return (
-    <div className={styles.appbar}>
-      minase hiro
-    </div>
+    <div className={styles.appbar}>minase hiro</div>
   )
 }
 

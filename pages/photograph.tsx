@@ -31,8 +31,8 @@ const Photograph: NextPage = () => {
             <Link href="/photographs/portrait" scroll={false}>
               <a>PORTRAIT</a>
             </Link>
-            <Link href="/photographs/artifact" scroll={false}>
-              <a>ARTIFACT</a>
+            <Link href="/photographs/snap" scroll={false}>
+              <a>SNAP</a>
             </Link>
           </div>
         </main>
