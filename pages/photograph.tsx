@@ -26,13 +26,36 @@ const Photograph: NextPage = () => {
 
           <div className={styles.categories}>
             <Link href="/photographs/nature" scroll={false}>
-              <a>NATURE</a>
+              <a>
+                <div className={styles.appIcon}>
+                  <Image src="/assets/images/nature_icon.jpg" layout="fill" objectFit="contain" />
+                </div>
+                Nature
+              </a>
             </Link>
             <Link href="/photographs/portrait" scroll={false}>
-              <a>PORTRAIT</a>
+              <a>
+                <div className={styles.appIcon}>
+                  <Image src="/assets/images/portrait_icon.jpg" layout="fill" objectFit="contain" />
+                </div>
+                Portrait
+              </a>
             </Link>
             <Link href="/photographs/snap" scroll={false}>
-              <a>SNAP</a>
+              <a>
+                <div className={styles.appIcon}>
+                  <Image src="/assets/images/snap_icon.jpg" layout="fill" objectFit="contain" />
+                </div>
+                Snap
+              </a>
+            </Link>
+            <Link href="/photographs/base_wishes" scroll={false}>
+              <a>
+                <div className={styles.appIcon}>
+                  <Image src="/assets/images/base_wishes_icon.jpg" layout="fill" objectFit="contain" />
+                </div>
+                Best wishes
+              </a>
             </Link>
           </div>
         </main>
