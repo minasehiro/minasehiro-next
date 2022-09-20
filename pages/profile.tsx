@@ -20,7 +20,7 @@ const Profile: NextPage = () => {
           <Header />
 
           <div className={styles.homeImage}>
-            <Image src="/assets/images/profile.jpg" layout="fill" objectFit="contain" />
+            <Image src="/assets/images/profile.jpg" layout="fill" objectFit="contain" priority={true} />
           </div>
 
           <div className={styles.name}>

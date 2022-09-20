@@ -32,6 +32,7 @@ const Index: NextPage = () => {
             layout="fill"
             objectFit={"contain"}
             objectPosition={"50% 50%"}
+            priority={true}
             alt="ロゴアニメーション"
           />
         </main>

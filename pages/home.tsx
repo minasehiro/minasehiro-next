@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <main className={styles.main}>
           <Header />
           <div className={styles.themeImage}>
-            <Image src="/assets/images/home.jpg" layout="fill" objectFit="contain" />
+            <Image src="/assets/images/home.jpg" layout="fill" objectFit="contain" priority={true} />
           </div>
         </main>
 
