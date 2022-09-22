@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
-import styles from '../styles/Photograph.module.scss'
+import styles from '../styles/App.module.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Photograph: NextPage = () => {
+const App: NextPage = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className={styles.container}>
@@ -24,7 +24,7 @@ const Photograph: NextPage = () => {
             <Image src="/assets/images/photograph.jpg" layout="fill" objectFit="contain" priority={true} />
           </div>
 
-          <div className={styles.categories}>
+          <div className={styles.apps}>
             <Link href="/photographs/nature" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
@@ -66,4 +66,4 @@ const Photograph: NextPage = () => {
   )
 }
 
-export default Photograph
+export default App

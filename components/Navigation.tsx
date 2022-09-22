@@ -11,9 +11,6 @@ function Navigation(props: { isShow: boolean, setIsShowNavigation: any }) {
             <a>Home</a>
           </Link>
           <span />
-          <Link href="/photograph" scroll={false}>
-            <a>Photograph</a>
-          </Link>
           <Link href="/" scroll={false}>
             <a>App</a>
           </Link>
