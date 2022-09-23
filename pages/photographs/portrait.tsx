@@ -21,61 +21,58 @@ const Nature: NextPage = () => {
 
           <div className={styles.photographs}>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/01.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/01.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/02.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/02.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/03.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/03.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/04.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/04.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/05.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/05.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/06.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/06.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/07.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/07.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/08.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/08.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/09.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/09.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/10.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/10.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/11.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/11.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/12.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/12.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/13.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/13.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/14.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/14.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/15.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/15.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/16.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/16.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/17.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/17.jpg" layout="fill" objectFit="contain" />
             </div>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/18.jpg" layout="fill" objectFit="contain" />
-            </div>
-            <div className={styles.photograph}>
-              <Image src="/assets/images/nature/19.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/18.jpg" layout="fill" objectFit="contain" />
             </div>
           </div>
         </main>
