@@ -18,7 +18,7 @@ const Index = () => {
   }
 
   return (
-    <motion.div animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <motion.div animate={{ opacity: 1 }} exit={{ opacity: 0.5 }}>
       <div className={styles.container}>
         <Head>
           <title>水瀬ひろ</title>

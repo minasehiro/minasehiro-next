@@ -13,6 +13,7 @@ const Home = () => {
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0.5 }}
+      transition={{ ease: "easeOut", duration: 1 }}
     >
       <div className={styles.container}>
         <Head>
@@ -41,7 +42,6 @@ const Home = () => {
                     src="/assets/images/icon/nature_icon.jpg"
                     layout="fill"
                     objectFit="contain"
-                    priority={true}
                   />
                 </div>
                 Nature
@@ -54,7 +54,6 @@ const Home = () => {
                     src="/assets/images/icon/portrait_icon.jpg"
                     layout="fill"
                     objectFit="contain"
-                    priority={true}
                   />
                 </div>
                 Portrait
@@ -67,7 +66,6 @@ const Home = () => {
                     src="/assets/images/icon/snap_icon.jpg"
                     layout="fill"
                     objectFit="contain"
-                    priority={true}
                   />
                 </div>
                 Snap
@@ -80,7 +78,6 @@ const Home = () => {
                     src="/assets/images/icon/best_wishes_icon.jpg"
                     layout="fill"
                     objectFit="contain"
-                    priority={true}
                   />
                 </div>
                 Best wishes
@@ -93,7 +90,6 @@ const Home = () => {
                     src="/assets/images/icon/profile_icon.jpg"
                     layout="fill"
                     objectFit="contain"
-                    priority={true}
                   />
                 </div>
                 Profile
@@ -106,7 +102,6 @@ const Home = () => {
                     src="/assets/images/icon/app_icon.jpg"
                     layout="fill"
                     objectFit="contain"
-                    priority={true}
                   />
                 </div>
                 App
@@ -122,7 +117,6 @@ const Home = () => {
                   src="/assets/images/icon/instagram_icon.png"
                   layout="fill"
                   objectFit="contain"
-                  priority={true}
                 />
               </div>
               Instagram
@@ -137,7 +131,6 @@ const Home = () => {
                   src="/assets/images/icon/twitter_icon.png"
                   layout="fill"
                   objectFit="contain"
-                  priority={true}
                 />
               </div>
               Twitter
