@@ -5,7 +5,7 @@ module.exports = {
     "prettier/prettier": "error"
   },
   "parserOptions": {
-    sourceType: "module",
-    ecmaVersion: 2015,
+    "sourceType": "module",
+    "ecmaVersion": 13,
   },
 };
