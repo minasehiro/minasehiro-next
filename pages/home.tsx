@@ -49,30 +49,42 @@ const Home: NextPage = () => {
                 Snap
               </a>
             </Link>
-            <Link href="/photographs/base_wishes" scroll={false}>
+            <Link href="/photographs/bast_wishes" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/base_wishes_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/bast_wishes_icon.jpg" layout="fill" objectFit="contain" />
                 </div>
                 Best wishes
               </a>
             </Link>
-            <Link href="/photographs/profile" scroll={false}>
+            <Link href="/profile" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/base_wishes_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/profile_icon.jpg" layout="fill" objectFit="contain" />
                 </div>
                 Profile
               </a>
             </Link>
-            <Link href="/photographs/app" scroll={false}>
+            <Link href="/app" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/portrait_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/app_icon.jpg" layout="fill" objectFit="contain" />
                 </div>
                 App
               </a>
             </Link>
+            <a href="https://instagram.com/minasehiro" target="_blank" rel="noopener noreferrer">
+              <div className={styles.appIcon}>
+                <Image src="/assets/images/instagram_icon.png" layout="fill" objectFit="contain" />
+              </div>
+              Instagram
+            </a>
+            <a href="https://twitter.com/minase_hiro_" target="_blank" rel="noopener noreferrer">
+              <div className={styles.appIcon}>
+                <Image src="/assets/images/twitter_icon.png" layout="fill" objectFit="contain" />
+              </div>
+              Twitter
+            </a>
           </div>
         </main>
 
