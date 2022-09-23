@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from "next/link"
+import Link from 'next/link'
 import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             <Link href="/photographs/nature" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/nature_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/icon/nature_icon.jpg" layout="fill" objectFit="contain" priority={true} />
                 </div>
                 Nature
               </a>
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             <Link href="/photographs/portrait" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/portrait_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/icon/portrait_icon.jpg" layout="fill" objectFit="contain" priority={true} />
                 </div>
                 Portrait
               </a>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             <Link href="/photographs/snap" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/snap_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/icon/snap_icon.jpg" layout="fill" objectFit="contain" priority={true} />
                 </div>
                 Snap
               </a>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
             <Link href="/photographs/best_wishes" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/best_wishes_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/icon/best_wishes_icon.jpg" layout="fill" objectFit="contain" priority={true} />
                 </div>
                 Best wishes
               </a>
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             <Link href="/profile" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/profile_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/icon/profile_icon.jpg" layout="fill" objectFit="contain" priority={true} />
                 </div>
                 Profile
               </a>
@@ -68,20 +68,20 @@ const Home: NextPage = () => {
             <Link href="/app" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/app_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/icon/app_icon.jpg" layout="fill" objectFit="contain" priority={true} />
                 </div>
                 App
               </a>
             </Link>
             <a href="https://instagram.com/minasehiro" target="_blank" rel="noopener noreferrer">
               <div className={styles.appIcon}>
-                <Image src="/assets/images/instagram_icon.png" layout="fill" objectFit="contain" />
+                <Image src="/assets/images/icon/instagram_icon.png" layout="fill" objectFit="contain" priority={true} />
               </div>
               Instagram
             </a>
             <a href="https://twitter.com/minase_hiro_" target="_blank" rel="noopener noreferrer">
               <div className={styles.appIcon}>
-                <Image src="/assets/images/twitter_icon.png" layout="fill" objectFit="contain" />
+                <Image src="/assets/images/icon/twitter_icon.png" layout="fill" objectFit="contain" priority={true} />
               </div>
               Twitter
             </a>

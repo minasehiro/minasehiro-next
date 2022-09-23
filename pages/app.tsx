@@ -21,7 +21,7 @@ const App: NextPage = () => {
           <Header />
   
           <div className={styles.homeImage}>
-            <Image src="/assets/images/photograph.jpg" layout="fill" objectFit="contain" priority={true} />
+            <Image src="/assets/images/app.jpg" layout="fill" objectFit="contain" priority={true} />
           </div>
         </main>
 

@@ -1,5 +1,5 @@
 import styles from '../styles/Navigation.module.scss'
-import Link from "next/link";
+import Link from 'next/link'
 import Image from 'next/image'
 
 function Navigation(props: { isShow: boolean, setIsShowNavigation: any }) {
@@ -11,7 +11,7 @@ function Navigation(props: { isShow: boolean, setIsShowNavigation: any }) {
             <a>Home</a>
           </Link>
           <span />
-          <Link href="/" scroll={false}>
+          <Link href="/app" scroll={false}>
             <a>App</a>
           </Link>
           <Link href="/profile" scroll={false}>
