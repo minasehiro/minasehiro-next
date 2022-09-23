@@ -1,14 +1,14 @@
-import type { NextPage } from 'next'
-import { useEffect } from 'react';
+import React from "react";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { motion } from 'framer-motion'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Index.module.scss'
+import { motion } from "framer-motion";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Index.module.scss";
 
-const Index: NextPage = () => {
+const Index = () => {
   const router = useRouter();
-  
+
   if (router.pathname === "/") {
     useEffect(() => {
       setTimeout(() => {
@@ -18,7 +18,7 @@ const Index: NextPage = () => {
   }
 
   return (
-    <motion.div animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <motion.div animate={{ opacity: 1 }} exit={{ opacity: 0.5 }}>
       <div className={styles.container}>
         <Head>
           <title>水瀬ひろ</title>
@@ -38,7 +38,7 @@ const Index: NextPage = () => {
         </main>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

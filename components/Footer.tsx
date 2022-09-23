@@ -1,27 +1,17 @@
-import React from 'react'
-import styles from '../styles/Footer.module.scss'
-import Navigation from './Navigation'
+import Link from "next/link";
+import React from "react";
+import styles from "../styles/Footer.module.scss";
 
 function Footer() {
-  const { useState } = React
-  const [isShowNavigation, setIsShowNavigation] = useState(false)
-
-  const showNavigation = () => {
-    setIsShowNavigation(true)
-  }
-
   return (
     <div className={styles.container}>
-      <Navigation isShow={isShowNavigation} setIsShowNavigation={setIsShowNavigation}/>
-      <div className={styles.openButton}>
-        <button onClick={showNavigation}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
+      <Link href="/home" scroll={false}>
+        <div className={styles.homeButton}>
+          <div className={styles.homeButtonSquare} />
+        </div>
+      </Link>
     </div>
-  )
+  );
 }
 
 export default Footer;

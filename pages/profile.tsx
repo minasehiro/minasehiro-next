@@ -1,14 +1,19 @@
-import type { NextPage } from 'next'
-import { motion } from 'framer-motion'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Profile.module.scss'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import React from "react";
+import { motion } from "framer-motion";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Profile.module.scss";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-const Profile: NextPage = () => {
+const Profile = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <motion.div
+      initial={{ opacity: 0.5 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0.5 }}
+      transition={{ ease: "easeOut", duration: 1 }}
+    >
       <div className={styles.container}>
         <Head>
           <title>水瀬ひろ</title>
@@ -20,12 +25,15 @@ const Profile: NextPage = () => {
           <Header />
 
           <div className={styles.homeImage}>
-            <Image src="/assets/images/profile.jpg" layout="fill" objectFit="contain" priority={true} />
+            <Image
+              src="/assets/images/profile.jpg"
+              layout="fill"
+              objectFit="contain"
+              priority={true}
+            />
           </div>
 
-          <div className={styles.name}>
-            水瀬ひろ
-          </div>
+          <div className={styles.name}>水瀬ひろ</div>
 
           <div className={styles.info}>
             東京在住
@@ -43,7 +51,7 @@ const Profile: NextPage = () => {
         <Footer />
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
