@@ -9,7 +9,7 @@ import React from "react";
 const Nature = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0.5 }}
     >
