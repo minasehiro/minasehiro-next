@@ -77,6 +77,30 @@ const Nature: NextPage = () => {
             <div className={styles.photograph}>
               <Image src="/assets/images/nature/19.jpg" layout="fill" objectFit="contain" />
             </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/20.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/21.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/22.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/23.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/24.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/25.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/26.jpg" layout="fill" objectFit="contain" />
+            </div>
+            <div className={styles.photograph}>
+              <Image src="/assets/images/nature/27.jpg" layout="fill" objectFit="contain" />
+            </div>
           </div>
         </main>
 
