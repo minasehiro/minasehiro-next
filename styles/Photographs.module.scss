@@ -1,0 +1,25 @@
+.container {
+  background: linear-gradient(180deg, #FBFBFB 40.1%, #C2DCE7 67.71%, #7BB6CD 84.37%, #127DA7 100%);
+
+  .main {
+    min-height: 100vh;
+
+    .photographs {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      z-index: 9999;
+      overflow: auto;
+      scroll-snap-type: y mandatory;
+
+      .photograph {
+        position: relative;
+        width: 90%;
+        height: 100vh;
+        margin: 5% auto;
+        scroll-snap-align: start;
+        z-index: 9999;
+      }
+    }
+  }
+}
