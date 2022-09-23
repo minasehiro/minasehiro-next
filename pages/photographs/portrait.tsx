@@ -6,7 +6,7 @@ import styles from '../../styles/Photographs.module.scss'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-const Nature: NextPage = () => {
+const Portrait: NextPage = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className={styles.container}>
@@ -21,7 +21,7 @@ const Nature: NextPage = () => {
 
           <div className={styles.photographs}>
             <div className={styles.photograph}>
-              <Image src="/assets/images/portrait/01.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/portrait/01.jpg" layout="fill" objectFit="contain" priority={true} />
             </div>
             <div className={styles.photograph}>
               <Image src="/assets/images/portrait/02.jpg" layout="fill" objectFit="contain" />
@@ -83,4 +83,4 @@ const Nature: NextPage = () => {
   )
 }
 
-export default Nature
+export default Portrait

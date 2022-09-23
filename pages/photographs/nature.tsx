@@ -21,7 +21,7 @@ const Nature: NextPage = () => {
 
           <div className={styles.photographs}>
             <div className={styles.photograph}>
-              <Image src="/assets/images/nature/01.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/nature/01.jpg" layout="fill" objectFit="contain" priority={true} />
             </div>
             <div className={styles.photograph}>
               <Image src="/assets/images/nature/02.jpg" layout="fill" objectFit="contain" />

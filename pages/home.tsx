@@ -49,10 +49,10 @@ const Home: NextPage = () => {
                 Snap
               </a>
             </Link>
-            <Link href="/photographs/bast_wishes" scroll={false}>
+            <Link href="/photographs/best_wishes" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
-                  <Image src="/assets/images/bast_wishes_icon.jpg" layout="fill" objectFit="contain" />
+                  <Image src="/assets/images/best_wishes_icon.jpg" layout="fill" objectFit="contain" />
                 </div>
                 Best wishes
               </a>

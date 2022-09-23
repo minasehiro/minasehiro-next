@@ -21,7 +21,7 @@ const Snap: NextPage = () => {
 
           <div className={styles.photographs}>
             <div className={styles.photograph}>
-              <Image src="/assets/images/snap/01.jpg" layout="fill" objectFit="contain" />
+              <Image src="/assets/images/snap/01.jpg" layout="fill" objectFit="contain" priority={true} />
             </div>
             <div className={styles.photograph}>
               <Image src="/assets/images/snap/02.jpg" layout="fill" objectFit="contain" />
