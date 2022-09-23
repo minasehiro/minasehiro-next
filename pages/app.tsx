@@ -1,11 +1,11 @@
-import type { NextPage } from 'next'
-import { motion } from 'framer-motion'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from "next/link"
-import styles from '../styles/App.module.scss'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import type { NextPage } from "next";
+import { motion } from "framer-motion";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../styles/App.module.scss";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const App: NextPage = () => {
   return (
@@ -28,7 +28,7 @@ const App: NextPage = () => {
         <Footer />
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

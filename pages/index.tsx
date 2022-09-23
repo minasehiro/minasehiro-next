@@ -1,10 +1,10 @@
-import type { NextPage } from 'next'
-import { useEffect } from 'react';
+import type { NextPage } from "next"
+import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { motion } from 'framer-motion'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Index.module.scss'
+import { motion } from "framer-motion";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Index.module.scss";
 
 const Index: NextPage = () => {
   const router = useRouter();
@@ -38,7 +38,7 @@ const Index: NextPage = () => {
         </main>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;

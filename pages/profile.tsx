@@ -1,10 +1,10 @@
-import type { NextPage } from 'next'
-import { motion } from 'framer-motion'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Profile.module.scss'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import type { NextPage } from "next";
+import { motion } from "framer-motion";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Profile.module.scss";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Profile: NextPage = () => {
   return (
@@ -43,7 +43,7 @@ const Profile: NextPage = () => {
         <Footer />
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

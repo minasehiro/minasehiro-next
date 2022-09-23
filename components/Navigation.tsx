@@ -1,6 +1,6 @@
-import styles from '../styles/Navigation.module.scss'
-import Link from 'next/link'
-import Image from 'next/image'
+import styles from "../styles/Navigation.module.scss";
+import Link from "next/link";
+import Image from "next/image";
 
 function Navigation(props: { isShow: boolean, setIsShowNavigation: any }) {
   if (props.isShow) {
@@ -35,12 +35,12 @@ function Navigation(props: { isShow: boolean, setIsShowNavigation: any }) {
           </button>
         </div>
       </div>
-    )
+    );
   } else {
     return (
       <div></div>
-    )
+    );
   }
-}
+};
 
 export default Navigation;

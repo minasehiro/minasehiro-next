@@ -1,10 +1,10 @@
-import type { NextPage } from 'next'
-import { motion } from 'framer-motion'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../../styles/Photographs.module.scss'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import type { NextPage } from "next";
+import { motion } from "framer-motion";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../../styles/Photographs.module.scss";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const BestWishes: NextPage = () => {
   return (
@@ -80,7 +80,7 @@ const BestWishes: NextPage = () => {
         <Footer />
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default BestWishes
+export default BestWishes;
