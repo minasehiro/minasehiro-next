@@ -2,7 +2,7 @@ import styles from "../styles/Navigation.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 
-function Navigation(props: { isShow: boolean, setIsShowNavigation: any }) {
+function Navigation(props: { isShow: boolean; setIsShowNavigation: (arg0: boolean) => void; }) {
   if (props.isShow) {
     return (
       <div className={styles.container}>

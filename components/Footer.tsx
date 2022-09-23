@@ -7,12 +7,15 @@ function Footer() {
   const [isShowNavigation, setIsShowNavigation] = useState(false);
 
   const showNavigation = () => {
-    setIsShowNavigation(true)
+    setIsShowNavigation(true);
   };
 
   return (
     <div className={styles.container}>
-      <Navigation isShow={isShowNavigation} setIsShowNavigation={setIsShowNavigation}/>
+      <Navigation
+        isShow={isShowNavigation}
+        setIsShowNavigation={setIsShowNavigation}
+      />
       <div className={styles.openButton}>
         <button onClick={showNavigation}>
           <span></span>
@@ -22,6 +25,6 @@ function Footer() {
       </div>
     </div>
   );
-};
+}
 
 export default Footer;
