@@ -1,4 +1,4 @@
-import type { NextPage } from "next"
+import React from "react";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
@@ -6,9 +6,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Index.module.scss";
 
-const Index: NextPage = () => {
+const Index = () => {
   const router = useRouter();
-  
+
   if (router.pathname === "/") {
     useEffect(() => {
       setTimeout(() => {

@@ -1,15 +1,18 @@
-import type { NextPage } from "next";
+import React from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/App.module.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const App: NextPage = () => {
+const App = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className={styles.container}>
         <Head>
           <title>水瀬ひろ</title>
@@ -19,9 +22,14 @@ const App: NextPage = () => {
 
         <main className={styles.main}>
           <Header />
-  
+
           <div className={styles.homeImage}>
-            <Image src="/assets/images/app.jpg" layout="fill" objectFit="contain" priority={true} />
+            <Image
+              src="/assets/images/app.jpg"
+              layout="fill"
+              objectFit="contain"
+              priority={true}
+            />
           </div>
         </main>
 
