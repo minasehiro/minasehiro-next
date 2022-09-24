@@ -5,7 +5,7 @@ import styles from "../styles/Footer.module.scss";
 function Footer() {
   return (
     <div className={styles.container}>
-      <Link href="/home" scroll={false}>
+      <Link href="/home">
         <div className={styles.homeButton}>
           <div className={styles.homeButtonSquare} />
         </div>
