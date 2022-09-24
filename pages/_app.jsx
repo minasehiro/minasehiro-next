@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps, router }) {
 
   Router.events.on("routeChangeComplete", routeChange);
   Router.events.on("routeChangeStart", routeChange);
-  
+
   return (
     <AnimatePresence exitBeforeEnter>
       <Component key={router.asPath} {...pageProps} />
