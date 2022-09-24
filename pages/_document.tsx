@@ -17,7 +17,8 @@ export default function Document() {
         />
       </Head>
       <body>
-        <script></script> {/* FOUC（Flash of unstyled content）回避のおまじない */}
+        {/* FOUC（Flash of unstyled content）回避のおまじない */}
+        <script> </script>
         <Main />
         <NextScript />
       </body>
