@@ -13,7 +13,7 @@ const Index = () => {
     useEffect(() => {
       setTimeout(() => {
         router.push("/home");
-      }, 7 * 1000);
+      }, 6500);
     });
   }
 

@@ -97,16 +97,16 @@ const Home = () => {
                 Profile
               </a>
             </Link>
-            <Link href="/app" scroll={false}>
+            <Link href="/apps" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
                   <Image
-                    src="/assets/images/icon/app_icon.jpg"
+                    src="/assets/images/icon/apps_icon.jpg"
                     layout="fill"
                     objectFit="contain"
                   />
                 </div>
-                App
+                Apps
               </a>
             </Link>
             <a
