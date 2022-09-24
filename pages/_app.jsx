@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps, router }) {
       <PageTransition timeout={300} classNames="page-transition">
         <Component key={router.asPath} {...pageProps} />
       </PageTransition>
-      <style jsx global>{`
+      <style>{`
         .page-transition-enter {
           opacity: 0;
         }
