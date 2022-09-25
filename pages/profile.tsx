@@ -1,18 +1,20 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Profile.module.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 
 const Profile = () => {
   return (
     <motion.div
-      initial={{ opacity: 0.5 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0.5 }}
-      transition={{ ease: "easeOut", duration: 1 }}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 10 }}
+      transition={{
+        duration: 0.5,
+      }}
     >
       <div className={styles.container}>
         <Head>

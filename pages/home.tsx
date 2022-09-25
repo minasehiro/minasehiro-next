@@ -1,19 +1,21 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
     <motion.div
-      initial={{ opacity: 0.5 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0.5 }}
-      transition={{ ease: "easeOut", duration: 1 }}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -10 }}
+      transition={{
+        duration: 0.8,
+      }}
     >
       <div className={styles.container}>
         <Head>
@@ -95,16 +97,16 @@ const Home = () => {
                 Profile
               </a>
             </Link>
-            <Link href="/app" scroll={false}>
+            <Link href="/apps" scroll={false}>
               <a>
                 <div className={styles.appIcon}>
                   <Image
-                    src="/assets/images/icon/app_icon.jpg"
+                    src="/assets/images/icon/apps_icon.jpg"
                     layout="fill"
                     objectFit="contain"
                   />
                 </div>
-                App
+                Apps
               </a>
             </Link>
             <a

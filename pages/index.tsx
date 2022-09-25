@@ -1,10 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Index.module.scss";
+import { motion } from "framer-motion";
 
 const Index = () => {
   const router = useRouter();
@@ -13,12 +13,17 @@ const Index = () => {
     useEffect(() => {
       setTimeout(() => {
         router.push("/home");
-      }, 7 * 1000);
+      }, 6500);
     });
   }
 
   return (
-    <motion.div animate={{ opacity: 1 }} exit={{ opacity: 0.5 }}>
+    <motion.div
+      exit={{ opacity: 0, y: 10 }}
+      transition={{
+        duration: 0.5,
+      }}
+    >
       <div className={styles.container}>
         <Head>
           <title>水瀬ひろ</title>
