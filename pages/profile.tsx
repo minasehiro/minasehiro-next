@@ -62,7 +62,8 @@ const Profile = () => {
             </div>
             <div className={styles.page}>
               <div className={styles.word}>
-                好きなことをする<span>努力家</span>は最強なんですよ
+                好きなことをする
+                <span>努力家</span>は最強なんですよ
               </div>
             </div>
             <div className={styles.page}>
@@ -72,7 +73,8 @@ const Profile = () => {
             </div>
             <div className={styles.page}>
               <div className={styles.word}>
-                何かを始めるのに、揺るぎない意志とか崇高な動機なんてなくていい。スタートに必要なのは、<span>ちょこっとの好奇心</span>ぐらいだよ。
+                何かを始めるのに、揺るぎない意志とか崇高な動機なんてなくていい。スタートに必要なのは、
+                <span>ちょこっとの好奇心</span>ぐらいだよ。
               </div>
             </div>
             <div className={styles.page}>
@@ -82,7 +84,8 @@ const Profile = () => {
             </div>
             <div className={styles.page}>
               <div className={styles.word}>
-                半年に1回くらいメンタルが限りなくマイナス寄りになった時に思う。自分は<span>平凡</span>なんだと。
+                半年に1回くらいメンタルが限りなくマイナス寄りになった時に思う。自分は
+                <span>平凡</span>なんだと。
                 <br />
                 <br />
                 ところで平凡な俺よ、下を向いている暇はあるのか。
@@ -90,12 +93,15 @@ const Profile = () => {
             </div>
             <div className={styles.page}>
               <div className={styles.word}>
-                日本一にもなってへん俺らが去年を・昨日を守って明日何になれる？ 何かひとつでいい。<span>今日</span>挑戦しいや
+                日本一にもなってへん俺らが去年を・昨日を守って明日何になれる？
+                何かひとつでいい。<span>今日</span>挑戦しいや
               </div>
             </div>
             <div className={styles.page}>
               <div className={styles.word}>
-                どこにも行けない奴が他人の挑戦を笑う。<span>「誰もやってない」</span>ことは<span>「誰もできない」</span>ことじゃない。
+                どこにも行けない奴が他人の挑戦を笑う。
+                <span>「誰もやってない」</span>ことは
+                <span>「誰もできない」</span>ことじゃない。
               </div>
             </div>
           </div>
