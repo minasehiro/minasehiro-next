@@ -15,6 +15,9 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap"
           rel="stylesheet"
         />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icon_192.png"></link>
+        <meta name="theme-color" content="#7BB6CD" />
       </Head>
       <body>
         {/* FOUC（Flash of unstyled content）回避のおまじない */}
