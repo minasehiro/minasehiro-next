@@ -17,7 +17,7 @@ export default function Document() {
         />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icon_192.png"></link>
-        <meta name="theme-color" content="#7BB6CD" />
+        <meta name="theme-color" content="#FBFBFB" />
       </Head>
       <body>
         {/* FOUC（Flash of unstyled content）回避のおまじない */}
