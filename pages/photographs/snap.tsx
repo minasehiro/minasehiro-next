@@ -217,6 +217,27 @@ const Snap = () => {
                 objectFit="contain"
               />
             </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/snap/28.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/snap/29.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/snap/30.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
         </main>
 

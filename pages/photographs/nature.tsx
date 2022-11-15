@@ -161,6 +161,20 @@ const Nature = () => {
                 objectFit="contain"
               />
             </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/nature/20.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/nature/21.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
         </main>
 

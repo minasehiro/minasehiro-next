@@ -154,6 +154,13 @@ const Portrait = () => {
                 objectFit="contain"
               />
             </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/portrait/19.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
         </main>
 

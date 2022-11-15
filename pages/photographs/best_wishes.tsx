@@ -154,6 +154,13 @@ const BestWishes = () => {
                 objectFit="contain"
               />
             </div>
+            <div className={styles.photograph}>
+              <Image
+                src="/assets/images/best_wishes/19.jpg"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
         </main>
 
