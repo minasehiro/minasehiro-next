@@ -8,24 +8,91 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
-    .homeImage {
+
+    .pages {
       position: relative;
       width: 100%;
-      height: 40vh;
-      margin: 8vh auto 15%;
-    }
+      height: 100vh;
+      z-index: 9999;
+      overflow: auto;
+      scroll-snap-type: y mandatory;
 
-    .name {
-      width: 60%;
-      text-align: center;
-      font-size: 22px;
-    }
+      .page {
+        position: relative;
+        width: 90%;
+        height: 100vh;
+        margin: 5% auto;
+        scroll-snap-align: start;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
 
-    .info {
-      width: 60%;
-      line-height: 2;
-      margin: 10px auto;
+        .homeImage {
+          position: relative;
+          width: 100%;
+          height: 40vh;
+          margin: 8vh auto 15%;
+        }
+    
+        .name {
+          text-align: center;
+          font-size: 26px;
+        }
+    
+        .info {
+          text-align: center;
+          font-size: 16px;
+          line-height: 2;
+          margin: 10px auto;
+        }
+
+        .scrolldown {
+          width: 1px;
+          height: 100px;
+          position: absolute;
+          bottom: 15vh;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          overflow: hidden;
+
+          .line {
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 50%);
+            background-position: 0 -100px;
+            background-size: 100% 200%;
+            animation: scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite;
+
+            @keyframes scrolldown {
+              0%{
+                background-position: 0 -100px;
+              }
+              75% {
+                background-position: 0 0;
+              }
+              100%{
+                background-position: 0 100px;
+              }
+            }
+          }
+        }
+
+        .word {
+          font-size: 20px;
+          letter-spacing: 3px;
+          line-height: 2;
+          // color: #FBFBFB;
+    
+          span {
+            // color: #FBFBFB;
+            font-weight: bold;
+          }
+        }
+      }
     }
   }
 }

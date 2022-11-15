@@ -26,27 +26,84 @@ const Profile = () => {
         <main className={styles.main}>
           <Header />
 
-          <div className={styles.homeImage}>
-            <Image
-              src="/assets/images/profile.jpg"
-              layout="fill"
-              objectFit="contain"
-              priority={true}
-            />
-          </div>
-
-          <div className={styles.name}>水瀬ひろ</div>
-
-          <div className={styles.info}>
-            東京在住
-            <br />
-            株式会社 ラブグラフ
-            <br />
-            webエンジニア
-            <br />
-            モバイルアプリエンジニア
-            <br />
-            写真家
+          <div className={styles.pages}>
+            <div className={styles.page}>
+              <div className={styles.name}>水瀬ひろ</div>
+              <div className={styles.info}>
+                東京在住
+                <br />
+                webエンジニア
+                <br />
+                フォトグラファー
+                <br />
+                モバイルアプリエンジニア
+              </div>
+              <div className={styles.scrolldown}>
+                <div className={styles.line} />
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                いいジャンプはいい<span>助走</span>から。
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                遠きに行くは必ず<span>邇き</span>よりす。
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                「自分より優れた何かを持っている人間は生まれた時点で自分とは違っている。それを覆すことなど、どんな努力、工夫、仲間をもってしても不可能だ」
+                <br />
+                <br />
+                そう嘆くのは全ての<span>正しい努力</span>をしてからで遅くない。
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                好きなことをする
+                <span>努力家</span>は最強なんですよ
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                限界を超えるんじゃなくて、<span>限界値</span>を上げていこう。
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                何かを始めるのに、揺るぎない意志とか崇高な動機なんてなくていい。スタートに必要なのは、
+                <span>ちょこっとの好奇心</span>ぐらいだよ。
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                習慣は<span>第二の天性</span>なり
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                半年に1回くらいメンタルが限りなくマイナス寄りになった時に思う。自分は
+                <span>平凡</span>なんだと。
+                <br />
+                <br />
+                ところで平凡な俺よ、下を向いている暇はあるのか。
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                日本一にもなってへん俺らが去年を・昨日を守って明日何になれる？
+                何かひとつでいい。<span>今日</span>挑戦しいや
+              </div>
+            </div>
+            <div className={styles.page}>
+              <div className={styles.word}>
+                どこにも行けない奴が他人の挑戦を笑う。
+                <span>「誰もやってない」</span>ことは
+                <span>「誰もできない」</span>ことじゃない。
+              </div>
+            </div>
           </div>
         </main>
 
