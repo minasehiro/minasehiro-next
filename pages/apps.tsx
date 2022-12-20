@@ -28,7 +28,7 @@ const Apps = () => {
         <main className={styles.main}>
           <div className={styles.appSection}>
             <div className={styles.appName}>
-              BITTER
+              スキンケア成分スキャナー
               <br />
               <span>化粧品成分のデータベースアプリ</span>
             </div>
