@@ -40,7 +40,7 @@ const Apps = () => {
               />
             </div>
             <a
-              href="https://instagram.com/minasehiro"
+              href="https://instagram.com/minasehirohttps://apps.apple.com/us/app/%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B1%E3%82%A2%E6%88%90%E5%88%86%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%8A%E3%83%BC/id1606313601"
               target="_blank"
               rel="noopener noreferrer"
             >
