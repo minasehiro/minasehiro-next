@@ -13,7 +13,7 @@ const Index = () => {
     useEffect(() => {
       setTimeout(() => {
         router.push("/home");
-      }, 6500);
+      }, 1000);
     });
   }
 
@@ -33,12 +33,12 @@ const Index = () => {
 
         <main className={styles.main}>
           <Image
-            src="/assets/gifs/minasehiro_logo.gif"
+            src="/assets/images/minasehiro_logo.png"
             layout="fill"
-            objectFit={"contain"}
+            objectFit="cover"
             objectPosition={"50% 50%"}
             priority={true}
-            alt="ロゴアニメーション"
+            alt="ロゴ"
           />
         </main>
       </div>
